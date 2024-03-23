@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINESCAPE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <section id="cont-home">
+
+        <div class="header">
+            <a href="#" ><img src="img/menu.png" alt="Menu" onclick="panellateral()"></a>           
+            <a href="#"><img src="img/icon-logo.png" alt="logo"></a>
+            <a href="#"><img src="img/user.png" alt="Usuario"></a>
+        </div>
+
+        <div id="panel-lateral">
+            <img src="img/menu.png" alt="Menu" onclick="panellateral()">
+            <h2>Menu principal</h2>
+            
+            <ul>
+                <a href="#">Inicio</a>
+                <a href="#">Perfil</a>
+                <a href="#">Estrenos</a>
+                <a href="#">Animadas</a>
+                <a href="#">Drama</a>
+            </ul>
+        </div>
+
+        <div class="filtros">
+            <button>Aventuras</button>
+            <button>Animadas</button>
+            <button>Drama</button>
+        </div>
+       
+        <p id="copy-categoria">Descubre emocionantes peliculas de aventura llenas de accion, peligro y exoticos lugares en CINESCAPE</p>
+
+        <div id="cont-aventuras">
+            <h2>Estrenos</h2>
+            <hr>
+            <div class="cont-caratulas">
+                <button class="caratula">
+                    <img src="img/guardianes3.jpg" alt="Guardinaes de la galaxia" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/mariobros.jpg" alt="Super Mario Bros" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/flash.jpg" alt="Flash" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/shazam2.jpg" alt="shazam2" onclick="modal()">
+                </button>
+            </div>
+            <h2>Proximamente</h2>
+            <hr>
+            <div class="cont-caratulas">
+                <button class="caratula">
+                    <img src="img/flash.jpg" alt="Flash" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/megalodon.jpg" alt="megalodon" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/barbie.jpeg" alt="barbie" onclick="modal()">
+                </button>
+                <button class="caratula">
+                    <img src="img/oppenheimer_drama.jpg" alt="oppenheimer_drama" onclick="modal()">
+                </button>
+            </div>
+            
+        </div>
+        <div id="modal-pelicula">
+            <button onclick="modal()">x</button>
+            <img src="img/mariobros.jpg" class="caratula-img" alt="Mario Bros">
+            <img src="img/boton_play1.png" class="btn-play" alt="Boton play">
+            <h2>Super Marios: <br>
+                Bors. La Pelicula
+            </h2>
+            <p>Estreno: 06-Abr-2023</p>
+            <p>Accion, Comedia</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, reprehenderit voluptates eum magnam at, debitis provident illum, suscipit repellat ut qui corrupti omnis? Consectetur, impedit quo! A, fugit mollitia deserunt odit ipsum excepturi, veritatis error sequi molestiae obcaecati eveniet amet.</p>
+        </div>
+
+   </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
