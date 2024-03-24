@@ -237,10 +237,10 @@
 }
 #panel-lateral img{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     top: 12px;
-    right: 12px;
+    right: -24px;
     border-radius: 20px 0 20px 0;
     padding: 5px;
 }
